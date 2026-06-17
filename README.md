@@ -1,6 +1,10 @@
 # SA-MP / Open.MP Portable Compiler & Server Manager
 
-A lightweight, portable batch script designed to streamline the compilation and testing process for SA-MP and Open.MP gamemodes. 
+A lightweight, portable batch script designed to streamline the compilation and testing process for SA-MP and Open.MP gamemodes.
+
+## Preview
+
+<img src="ss.PNG" width="600" alt="Server Manager Preview">
 
 ## Features
 
@@ -22,3 +26,4 @@ A lightweight, portable batch script designed to streamline the compilation and 
 
 ---
 *Created to help the SA-MP & Open.MP scripting community work faster and more efficiently.*
+*Developer: BngWiro*
