@@ -4,7 +4,9 @@ A lightweight, portable batch script designed to streamline the compilation and 
 
 ## Preview
 
-<img src="ss.PNG" width="600" alt="Server Manager Preview">
+<p align="center">
+  <img src="ss.PNG" width="300" alt="Server Manager Preview">
+</p>
 
 ## Features
 
