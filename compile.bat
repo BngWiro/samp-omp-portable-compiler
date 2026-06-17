@@ -1,40 +1,38 @@
 @echo off
-title Open.MP Server Manager
-color 0b
+title Server Manager - by BngWiro
+color 0F
 
 :menu
 cls
 echo ========================================================
-echo                     SERVER MANAGER
+echo                  SERVER MANAGER
+echo                 Developer: BngWiro
 echo ========================================================
 echo.
-echo  [1] Compile Gamemode
-echo  [2] Runing Server
-echo  [3] Close
+echo  [1] Compile Gamemode (pawncc)
+echo  [2] Run Server
+echo  [3] Exit
 echo.
 echo ========================================================
-set /p pilihan="Masukkan pilihan kamu (1/2/3): "
+set /p pilihan=" Select option (1/2/3): "
 
 if "%pilihan%"=="1" goto compile
 if "%pilihan%"=="2" goto run
 if "%pilihan%"=="3" goto close
 
-echo.
-echo Pilihan tidak valid! Silakan masukkan angka 1, 2, atau 3.
-pause
 goto menu
 
 :compile
 cls
 echo ========================================================
-echo                 PROSES COMPILE...
+echo                 COMPILING GAMEMODE...
 echo ========================================================
 echo.
 cd /d "%~dp0"
 "qawno\pawncc.exe" -;+ -(+ -\ -Z- "-igamemodes" "-iqawno\include" -d3 -t4 "-ogamemodes\main" "gamemodes\main.pwn"
 echo.
 echo ========================================================
-echo                 COMPILE DONE.
+echo                 COMPILATION FINISHED
 echo ========================================================
 pause
 goto menu
@@ -42,14 +40,14 @@ goto menu
 :run
 cls
 echo ========================================================
-echo               RUNING SERVER...
+echo                 STARTING SERVER
 echo ========================================================
 echo.
-echo Server sedang berjalan di jendela baru...
-echo (Silakan tutup jendela server tersebut untuk kembali ke menu awal)
+echo [INFO] Server is running in a separate console window.
+echo [INFO] Close the server window to return to this menu.
 echo.
-cd /d "C:\Users\Administrator\Documents\test gm bagus\dts-roleplay-gamemodes"
-start "Open.MP Server" /wait omp-server.exe
+cd /d "%~dp0"
+start "Open.MP Server (BngWiro)" /wait omp-server.exe
 goto menu
 
 :close
