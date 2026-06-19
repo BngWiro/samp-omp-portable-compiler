@@ -22,7 +22,7 @@ A lightweight, portable batch script designed to streamline the compilation and 
 3. Double-click `compile.bat` to open the manager.
 4. Choose an option from the menu!
 
-## ⚙️ Requirements
+## Requirements
 * [Open.MP Server](https://open.mp/) or standard SA-MP Server.
 * Pawn Compiler (`pawncc.exe`) located inside the `qawno` folder.
 
