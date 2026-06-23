@@ -1,4 +1,4 @@
-# SA-MP / Open.MP Portable Compiler & Server Manage
+# SA-MP / Open.MP Portable Compiler & Server Manager
 
 A lightweight, portable batch script designed to streamline the compilation and testing process for SA-MP and Open.MP gamemodes.
 
