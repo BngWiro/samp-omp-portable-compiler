@@ -8,7 +8,7 @@ A lightweight, portable batch script designed to streamline the compilation and 
   <img src="ss.PNG" width="300" alt="Server Manager Preview">
 </p>
 
-## Features
+## Feature
 
 * **Portable (Relative Paths):** You can move your server folder anywhere (or to another PC) without needing to reconfigure the directory paths.
 * **Bypass Qawno Timeout:** Compiles large gamemodes (like those heavily using YSI) directly via `pawncc.exe` in CMD, preventing Qawno editor freezes or timeout errors.
